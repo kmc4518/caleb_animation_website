@@ -36,13 +36,7 @@ $(document).on('click', '.cb-video', function (event) {
 
     $(".cb-main-video > iframe").attr("src", "https://player.vimeo.com/video/" + videoId + "?title=0&portrait=0&badge=0");
     $(".cb-video-info > p").html( description);
-
-
-
-
-
 });
-
 
 // https://vimeo.com/237343122
 // https://vimeo.com/243145806
